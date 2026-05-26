@@ -47,6 +47,7 @@ const (
 	InferenceProviderVercel           InferenceProvider = "vercel"
 	InferenceProviderMiniMax          InferenceProvider = "minimax"
 	InferenceProviderMiniMaxChina     InferenceProvider = "minimax-china"
+	InferenceProviderGateRouter       InferenceProvider = "gaterouter"
 	InferenceProviderIoNet            InferenceProvider = "ionet"
 	InferenceProviderQiniuCloud       InferenceProvider = "qiniucloud"
 	InferenceProviderAvian            InferenceProvider = "avian"
@@ -125,6 +126,7 @@ func KnownProviders() []InferenceProvider {
 		InferenceProviderVercel,
 		InferenceProviderMiniMax,
 		InferenceProviderMiniMaxChina,
+		InferenceProviderGateRouter,
 		InferenceProviderQiniuCloud,
 		InferenceProviderAvian,
 		InferenceProviderNebius,
