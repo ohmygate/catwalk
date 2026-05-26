@@ -1,0 +1,2178 @@
+{
+    "code": 200,
+    "message": "success",
+    "data": {
+        "data": [
+            {
+                "id": 176,
+                "model": "qwen3.7-max",
+                "name": "Qwen3.7 Max",
+                "icon": "https://gimg2.staticimgs.com/image/qwen_20260402_161657_e06ffb27e1219c85184d939bce7cd1bd.webp",
+                "provider_type": "qwen",
+                "type": "completions",
+                "input_price": 1.65,
+                "output_price": 4.951,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "面向智能体场景的旗舰推理模型,擅长代码开发、办公生产力与可长时间自主运行的复杂任务,配备 1M 超长上下文。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 7,
+                        "key": "production-code",
+                        "name": "生产代码",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 34,
+                        "key": "refactoring",
+                        "name": "代码重构",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 35,
+                        "key": "agent-coding",
+                        "name": "Agent编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 38,
+                        "key": "debug-fix",
+                        "name": "调试修复",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 23,
+                        "key": "structured-output",
+                        "name": "结构化输出",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 21,
+                        "key": "instruction",
+                        "name": "指令执行",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 33,
+                        "key": "complex-planning",
+                        "name": "复杂规划",
+                        "category": "general"
+                    },
+                    {
+                        "id": 45,
+                        "key": "agent",
+                        "name": "智能体",
+                        "category": "general"
+                    },
+                    {
+                        "id": 12,
+                        "key": "long-text",
+                        "name": "长文本处理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 15,
+                        "key": "chain-of-thought",
+                        "name": "思维链",
+                        "category": "general"
+                    },
+                    {
+                        "id": 20,
+                        "key": "office",
+                        "name": "办公",
+                        "category": "general"
+                    },
+                    {
+                        "id": 4,
+                        "key": "frontier",
+                        "name": "前沿",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-05-25T07:36:29Z",
+                "update_time": "2026-05-25T07:38:39Z"
+            },
+            {
+                "id": 175,
+                "model": "gemini-3.1-flash-lite",
+                "name": "Gemini 3.1 Flash Lite",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 0.25,
+                "output_price": 1.5,
+                "price_type": 0,
+                "context_length": 1048576,
+                "description": "高效率多模态轻量模型,适用于低延迟、高并发的批量任务,如实时翻译、分类与数据抽取,价格约为 Gemini 3 Flash 的一半。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 21,
+                        "key": "instruction",
+                        "name": "指令执行",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 22,
+                        "key": "task-automation",
+                        "name": "任务自动化",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 23,
+                        "key": "structured-output",
+                        "name": "结构化输出",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 24,
+                        "key": "classification",
+                        "name": "分类",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 12,
+                        "key": "long-text",
+                        "name": "长文本处理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    },
+                    {
+                        "id": 13,
+                        "key": "real-time",
+                        "name": "实时响应",
+                        "category": "general"
+                    },
+                    {
+                        "id": 14,
+                        "key": "lightweight",
+                        "name": "轻量",
+                        "category": "general"
+                    },
+                    {
+                        "id": 15,
+                        "key": "chain-of-thought",
+                        "name": "思维链",
+                        "category": "general"
+                    },
+                    {
+                        "id": 31,
+                        "key": "multimodal-understanding",
+                        "name": "多模态理解",
+                        "category": "general"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-05-25T07:29:47Z",
+                "update_time": "2026-05-25T07:39:25Z"
+            },
+            {
+                "id": 174,
+                "model": "gemini-3.5-flash",
+                "name": "Gemini 3.5 Flash",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 1.5,
+                "output_price": 9,
+                "price_type": 0,
+                "context_length": 1048576,
+                "description": "适用于高效率、多模态 AI 任务，在 Flash 级成本与速度下，支持代码、推理、实时对话与 Agent 执行场景。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 7,
+                        "key": "production-code",
+                        "name": "生产代码",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 34,
+                        "key": "refactoring",
+                        "name": "代码重构",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 35,
+                        "key": "agent-coding",
+                        "name": "Agent编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 36,
+                        "key": "daily-dev",
+                        "name": "日常开发",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 37,
+                        "key": "scripting",
+                        "name": "脚本编写",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 38,
+                        "key": "debug-fix",
+                        "name": "调试修复",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 22,
+                        "key": "task-automation",
+                        "name": "任务自动化",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    },
+                    {
+                        "id": 3,
+                        "key": "vision",
+                        "name": "视觉",
+                        "category": "general"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    },
+                    {
+                        "id": 12,
+                        "key": "long-text",
+                        "name": "长文本处理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 13,
+                        "key": "real-time",
+                        "name": "实时响应",
+                        "category": "general"
+                    },
+                    {
+                        "id": 15,
+                        "key": "chain-of-thought",
+                        "name": "思维链",
+                        "category": "general"
+                    },
+                    {
+                        "id": 14,
+                        "key": "lightweight",
+                        "name": "轻量",
+                        "category": "general"
+                    },
+                    {
+                        "id": 16,
+                        "key": "balanced",
+                        "name": "平衡性能",
+                        "category": "general"
+                    },
+                    {
+                        "id": 29,
+                        "key": "image-parsing",
+                        "name": "图片解析",
+                        "category": "general"
+                    },
+                    {
+                        "id": 30,
+                        "key": "document-ocr",
+                        "name": "文档识别",
+                        "category": "general"
+                    },
+                    {
+                        "id": 31,
+                        "key": "multimodal-understanding",
+                        "name": "多模态理解",
+                        "category": "general"
+                    },
+                    {
+                        "id": 41,
+                        "key": "task-execution",
+                        "name": "任务执行",
+                        "category": "general"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    },
+                    {
+                        "id": 45,
+                        "key": "agent",
+                        "name": "智能体",
+                        "category": "general"
+                    },
+                    {
+                        "id": 46,
+                        "key": "tech",
+                        "name": "科技",
+                        "category": "general"
+                    },
+                    {
+                        "id": 9,
+                        "key": "chinese",
+                        "name": "中文",
+                        "category": "language"
+                    },
+                    {
+                        "id": 10,
+                        "key": "bilingual",
+                        "name": "双语",
+                        "category": "language"
+                    },
+                    {
+                        "id": 11,
+                        "key": "universal",
+                        "name": "通用",
+                        "category": "language"
+                    },
+                    {
+                        "id": 40,
+                        "key": "batch-generation",
+                        "name": "批量生成",
+                        "category": "language"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-05-22T10:07:00Z",
+                "update_time": "2026-05-22T10:35:26Z"
+            },
+            {
+                "id": 173,
+                "model": "grok-4.3",
+                "name": "Grok 4.3",
+                "icon": "https://gimg2.staticimgs.com/image/grok_20260326_175808_7fcd78c6311269895e12f1fa2025443b.webp",
+                "provider_type": "x-ai",
+                "type": "messages|completions",
+                "input_price": 1.25,
+                "output_price": 2.5,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "原生理解视频与图像，一键生成 PDF、PPT、Excel，百万上下文窗口，让 AI 真正看懂并交付完整成果。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 7,
+                        "key": "production-code",
+                        "name": "生产代码",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 23,
+                        "key": "structured-output",
+                        "name": "结构化输出",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 31,
+                        "key": "multimodal-understanding",
+                        "name": "多模态理解",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-05-18T06:14:24Z",
+                "update_time": "2026-05-18T10:05:44Z"
+            },
+            {
+                "id": 172,
+                "model": "gpt-5.5",
+                "name": "GPT-5.5",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions|responses",
+                "input_price": 5,
+                "output_price": 30,
+                "price_type": 0,
+                "context_length": 1050000,
+                "description": "原生支持视频内容理解、语音情感识别与自主工具调用，为复杂任务的智能体执行提供全模态基础能力。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 7,
+                        "key": "production-code",
+                        "name": "生产代码",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 21,
+                        "key": "instruction",
+                        "name": "指令执行",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-30T11:37:51Z",
+                "update_time": "2026-05-06T02:06:52Z"
+            },
+            {
+                "id": 171,
+                "model": "deepseek-v4-pro",
+                "name": "DeepSeek V4 Pro",
+                "icon": "https://gimg2.staticimgs.com/image/deepseek_20260326_175808_c017c031804298fc23d66a4c9da62aa9.webp",
+                "provider_type": "deepseek",
+                "type": "completions|responses|messages",
+                "input_price": 0.44,
+                "output_price": 0.88,
+                "price_type": 0,
+                "context_length": 1048576,
+                "description": "DeepSeek V4 系列旗舰，深度推理与代码生成能力达系列高位，适合全代码库分析、多步骤自动化与高难度指令场景。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-30T02:28:25Z",
+                "update_time": "2026-05-14T14:34:02Z"
+            },
+            {
+                "id": 170,
+                "model": "deepseek-v4-flash",
+                "name": "DeepSeek V4 Flash",
+                "icon": "https://gimg2.staticimgs.com/image/deepseek_20260326_175808_c017c031804298fc23d66a4c9da62aa9.webp",
+                "provider_type": "deepseek",
+                "type": "completions|responses",
+                "input_price": 0.14,
+                "output_price": 0.28,
+                "price_type": 0,
+                "context_length": 1048576,
+                "description": "DeepSeek V4 系列中速度更快、成本更低的版本，保留主力版推理与编程基础，适合高并发对话、编程辅助与对延迟敏感的 Agent 场景。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-30T02:23:42Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 169,
+                "model": "kimi-k2.6",
+                "name": "Kimi K2.6",
+                "icon": "https://gimg2.staticimgs.com/image/kimi_20260326_175808_195de36406582535a5456bad511ffbbe.webp",
+                "provider_type": "moonshotai",
+                "type": "responses|completions",
+                "input_price": 0.95,
+                "output_price": 4,
+                "price_type": 0,
+                "context_length": 256000,
+                "description": "K2 系列最新多模态版本，专注长链路编程、代码驱动的 UI/UX 生成与多智能体编排，适合复杂工程自动化与 Agent 协作场景。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 3,
+                        "key": "vision",
+                        "name": "视觉",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-30T02:20:30Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 168,
+                "model": "gpt-4.1-mini",
+                "name": "GPT-4.1 Mini",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions",
+                "input_price": 0.4,
+                "output_price": 1.6,
+                "price_type": 0,
+                "context_length": 1047576,
+                "description": "以更低延迟和成本，提供接近 GPT-4o 的性能，适用于高频交互、代码生成与视觉理解场景。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-28T10:56:55Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 167,
+                "model": "qwen3.6-plus",
+                "name": "Qwen3.6 Plus",
+                "icon": "https://gimg2.staticimgs.com/image/qwen_20260402_161657_e06ffb27e1219c85184d939bce7cd1bd.webp",
+                "provider_type": "qwen",
+                "type": "completions|responses|messages",
+                "input_price": 0.5,
+                "output_price": 3,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "通义千问增强版，中英双语理解出色，擅长长文本分析与结构化输出。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 20,
+                        "key": "office",
+                        "name": "办公",
+                        "category": "general"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-24T11:12:35Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 166,
+                "model": "claude-opus-4.7",
+                "name": "Claude Opus 4.7",
+                "icon": "https://gimg2.staticimgs.com/image/cloude_20260326_175808_307b0f75c8b5dc39935a33fc51959146.webp",
+                "provider_type": "anthropic",
+                "type": "responses|completions",
+                "input_price": 5,
+                "output_price": 25,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "专为长链路异步智能体设计，复杂多步任务与端到端工作流的首选。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 35,
+                        "key": "agent-coding",
+                        "name": "Agent编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-24T11:10:45Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 165,
+                "model": "gemini-2.5-flash-lite",
+                "name": "Gemini 2.5 Flash Lite",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 0.082,
+                "output_price": 0.398,
+                "price_type": 0,
+                "context_length": 1050000,
+                "description": "轻量级推理模型，主打低延迟与高性价比",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 44,
+                        "key": "finance",
+                        "name": "金融",
+                        "category": "general"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 156,
+                "model": "glm-5.1",
+                "name": "GLM 5.1",
+                "icon": "https://gimg2.staticimgs.com/image/glm_20260326_175808_84424145265aa8c96dc63ba267184b1b.webp",
+                "provider_type": "z-ai",
+                "type": "completions",
+                "input_price": 1.4,
+                "output_price": 4.4,
+                "price_type": 0,
+                "context_length": 128000,
+                "description": "长任务自主执行的工程级编码模型",
+                "overview": "简洁高效的实用模型",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 41,
+                        "key": "task-execution",
+                        "name": "任务执行",
+                        "category": "general"
+                    },
+                    {
+                        "id": 48,
+                        "key": "gate_ai_v3",
+                        "name": "gateai主站",
+                        "category": "caller"
+                    },
+                    {
+                        "id": 49,
+                        "key": "gate_ai_v3_paid_only",
+                        "name": "付费用户",
+                        "category": "gate_ai_v3"
+                    },
+                    {
+                        "id": 50,
+                        "key": "gate_ai_v3_free",
+                        "name": "免费用户",
+                        "category": "gate_ai_v3"
+                    },
+                    {
+                        "id": 52,
+                        "key": "gate_ai_v3_free_show",
+                        "name": "免费标识",
+                        "category": "gate_ai_v3"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-11T12:18:33Z"
+            },
+            {
+                "id": 158,
+                "model": "step-3.5-flash",
+                "name": "Step 3.5 Flash",
+                "icon": "https://gimg2.staticimgs.com/image/frame-new_20260409_103247_e3247274daed99801eae5cc457b61fd7.webp",
+                "provider_type": "stepfun",
+                "type": "completions",
+                "input_price": 0.067,
+                "output_price": 0.3,
+                "price_type": 0,
+                "context_length": 256000,
+                "description": "基于 MoE 的高速推理模型，兼顾长上下文与低延迟",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    },
+                    {
+                        "id": 44,
+                        "key": "finance",
+                        "name": "金融",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 159,
+                "model": "gemini-3-flash-preview",
+                "name": "Gemini 3 Flash Preview",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 0.38,
+                "output_price": 3,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "高性价比多模态推理模型，适用于智能体与协作编码任务",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    },
+                    {
+                        "id": 44,
+                        "key": "finance",
+                        "name": "金融",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 160,
+                "model": "mimo-v2-pro",
+                "name": "MiMo-V2-Pro",
+                "icon": "https://gimg2.staticimgs.com/image/xiaomi-new-2021-seeklogo_20260409_103247_095d9df3a46e89c28e22b089ae082a9c.webp",
+                "provider_type": "xiaomi",
+                "type": "completions",
+                "input_price": 0.32,
+                "output_price": 3.11,
+                "price_type": 0,
+                "context_length": 1050000,
+                "description": "面向智能体的旗舰模型，擅长复杂流程编排与工程级任务执行",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 43,
+                        "key": "marketing",
+                        "name": "营销",
+                        "category": "general"
+                    },
+                    {
+                        "id": 44,
+                        "key": "finance",
+                        "name": "金融",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 163,
+                "model": "minimax-m2.7",
+                "name": "MiniMax M2.7",
+                "icon": "https://gimg2.staticimgs.com/image/minimax_20260326_175808_e035b094e2a2c576421eaea02d991de4.webp",
+                "provider_type": "minimax",
+                "type": "completions",
+                "input_price": 0.3,
+                "output_price": 1.59,
+                "price_type": 0,
+                "context_length": 204800,
+                "description": "多智能体协作模型，支持复杂任务规划与生产级工作流执行",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 44,
+                        "key": "finance",
+                        "name": "金融",
+                        "category": "general"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 164,
+                "model": "gemini-2.5-flash",
+                "name": "Gemini 2.5 Flash",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 0.24,
+                "output_price": 2.5,
+                "price_type": 0,
+                "context_length": 1050000,
+                "description": "擅长编程、数学与复杂问题处理",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 46,
+                        "key": "tech",
+                        "name": "科技",
+                        "category": "general"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 42,
+                        "key": "translation",
+                        "name": "翻译",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-04-09T04:00:00Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 150,
+                "model": "gpt-5.3-codex",
+                "name": "GPT-5.3-codex",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions|responses",
+                "input_price": 1.75,
+                "output_price": 14,
+                "price_type": 0,
+                "context_length": 256000,
+                "description": "面向工程场景的高质量代码模型，复杂重构与工具调用链路更稳定。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 34,
+                        "key": "refactoring",
+                        "name": "代码重构",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 35,
+                        "key": "agent-coding",
+                        "name": "Agent编程",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 155,
+                "model": "minimax-m2.1",
+                "name": "MiniMax-M2.1",
+                "icon": "https://gimg2.staticimgs.com/image/minimax_20260326_175808_e035b094e2a2c576421eaea02d991de4.webp",
+                "provider_type": "minimax",
+                "type": "completions",
+                "input_price": 0.3,
+                "output_price": 1.2,
+                "price_type": 0,
+                "context_length": 128000,
+                "description": "性价比导向的通用模型，在对话与内容生产任务中速度和质量较均衡。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    },
+                    {
+                        "id": 39,
+                        "key": "marketing-copy",
+                        "name": "营销文案",
+                        "category": "language"
+                    },
+                    {
+                        "id": 40,
+                        "key": "batch-generation",
+                        "name": "批量生成",
+                        "category": "language"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 154,
+                "model": "claude-opus-4.5",
+                "name": "Claude-Opus-4.5",
+                "icon": "https://gimg2.staticimgs.com/image/cloude_20260326_175808_307b0f75c8b5dc39935a33fc51959146.webp",
+                "provider_type": "anthropic",
+                "type": "messages",
+                "input_price": 5,
+                "output_price": 25,
+                "price_type": 0,
+                "context_length": 128000,
+                "description": "强推理与长上下文能力突出，复杂分析与高质量写作稳定性高。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 32,
+                        "key": "deep-analysis",
+                        "name": "深度分析",
+                        "category": "general"
+                    },
+                    {
+                        "id": 12,
+                        "key": "long-text",
+                        "name": "长文本处理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 33,
+                        "key": "complex-planning",
+                        "name": "复杂规划",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-04-22T06:29:26Z"
+            },
+            {
+                "id": 153,
+                "model": "glm-4.6v",
+                "name": "GLM4.6v",
+                "icon": "https://gimg2.staticimgs.com/image/glm_20260326_175808_84424145265aa8c96dc63ba267184b1b.webp",
+                "provider_type": "z-ai",
+                "type": "completions",
+                "input_price": 0.4,
+                "output_price": 1.61,
+                "price_type": 0,
+                "context_length": 128000,
+                "description": "视觉增强版本，兼顾图像理解与文本推理，适合多模态输入场景。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 3,
+                        "key": "vision",
+                        "name": "视觉",
+                        "category": "general"
+                    },
+                    {
+                        "id": 27,
+                        "key": "visual-qa",
+                        "name": "图像问答",
+                        "category": "general"
+                    },
+                    {
+                        "id": 31,
+                        "key": "multimodal-understanding",
+                        "name": "多模态理解",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 152,
+                "model": "glm-4.7",
+                "name": "GLM4.7",
+                "icon": "https://gimg2.staticimgs.com/image/glm_20260326_175808_84424145265aa8c96dc63ba267184b1b.webp",
+                "provider_type": "z-ai",
+                "type": "completions",
+                "input_price": 0.6,
+                "output_price": 2.2,
+                "price_type": 0,
+                "context_length": 128000,
+                "description": "综合能力均衡，中文理解与推理表现较好，通用任务适配面广。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 9,
+                        "key": "chinese",
+                        "name": "中文",
+                        "category": "language"
+                    },
+                    {
+                        "id": 26,
+                        "key": "content-gen",
+                        "name": "内容生成",
+                        "category": "language"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 151,
+                "model": "gpt-5.2-codex",
+                "name": "GPT-5.2-codex",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions|responses",
+                "input_price": 1.75,
+                "output_price": 14,
+                "price_type": 0,
+                "context_length": 256000,
+                "description": "编程能力强且响应更灵活，适合日常开发与中高复杂度代码任务。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 36,
+                        "key": "daily-dev",
+                        "name": "日常开发",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 37,
+                        "key": "scripting",
+                        "name": "脚本编写",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 38,
+                        "key": "debug-fix",
+                        "name": "调试修复",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 149,
+                "model": "qwen3-vl-8b-instruct",
+                "name": "Qwen3-vl-8b-instruct",
+                "icon": "https://gimg2.staticimgs.com/image/qwen_20260402_161657_e06ffb27e1219c85184d939bce7cd1bd.webp",
+                "provider_type": "qwen",
+                "type": "completions|messages",
+                "input_price": 0.18,
+                "output_price": 0.7,
+                "price_type": 2,
+                "context_length": 128000,
+                "description": "轻量级视觉语言模型，图文理解和指令跟随能力均衡，适合成本敏感的多模态任务。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 27,
+                        "key": "visual-qa",
+                        "name": "图像问答",
+                        "category": "general"
+                    },
+                    {
+                        "id": 28,
+                        "key": "ui-understanding",
+                        "name": "界面理解",
+                        "category": "general"
+                    },
+                    {
+                        "id": 29,
+                        "key": "image-parsing",
+                        "name": "图片解析",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 141,
+                "model": "gemma-3n-e4b-it:free",
+                "name": "Gemma 3n 4B",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 0,
+                "output_price": 0,
+                "price_type": 1,
+                "context_length": 32768,
+                "description": "轻量快速，成本低。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    },
+                    {
+                        "id": 13,
+                        "key": "real-time",
+                        "name": "实时响应",
+                        "category": "general"
+                    },
+                    {
+                        "id": 24,
+                        "key": "classification",
+                        "name": "分类",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-30T12:01:18Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 133,
+                "model": "nemotron-3-nano-30b-a3b:free",
+                "name": "Nemotron 3 Nano 30B A3B",
+                "icon": "https://gimg2.staticimgs.com/image/nivida_20260331_165508_a38aa70fa1e30116c2673fc9eed21c5a.webp",
+                "provider_type": "nvidia",
+                "type": "completions",
+                "input_price": 0,
+                "output_price": 0,
+                "price_type": 1,
+                "context_length": 131072,
+                "description": "平衡型强力模型。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 25,
+                        "key": "high-quality-gen",
+                        "name": "高质量生成",
+                        "category": "language"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 16,
+                        "key": "balanced",
+                        "name": "平衡性能",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-26T09:03:42Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 132,
+                "model": "lfm-2.5-1.2b-instruct:free",
+                "name": "LFM2.5-1.2B Instruct",
+                "icon": "https://gimg2.staticimgs.com/image/liquidai_20260331_165508_a5eb8b2e0e51c21e48ca9f32187e0628.webp",
+                "provider_type": "liquid",
+                "type": "completions",
+                "input_price": 0,
+                "output_price": 0,
+                "price_type": 1,
+                "context_length": 8192,
+                "description": "指令微调优化，精准执行。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 21,
+                        "key": "instruction",
+                        "name": "指令执行",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 22,
+                        "key": "task-automation",
+                        "name": "任务自动化",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 23,
+                        "key": "structured-output",
+                        "name": "结构化输出",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-26T09:03:42Z",
+                "update_time": "2026-04-22T06:29:26Z"
+            },
+            {
+                "id": 104,
+                "model": "gpt-5.2",
+                "name": "GPT-5.2",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions|responses",
+                "input_price": 1.75,
+                "output_price": 14,
+                "price_type": 0,
+                "context_length": 400000,
+                "description": "上一代旗舰，以更低价格提供强大推理能力。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 105,
+                "model": "gpt-5",
+                "name": "GPT-5",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions",
+                "input_price": 1.25,
+                "output_price": 10,
+                "price_type": 0,
+                "context_length": 400000,
+                "description": "可靠的全能型模型，适用于日常任务。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 11,
+                        "key": "universal",
+                        "name": "通用",
+                        "category": "language"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 106,
+                "model": "gpt-5-mini",
+                "name": "GPT-5 Mini",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions|responses",
+                "input_price": 0.25,
+                "output_price": 2,
+                "price_type": 0,
+                "context_length": 400000,
+                "description": "GPT-5 五分之一的成本，良好的推理能力。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    },
+                    {
+                        "id": 11,
+                        "key": "universal",
+                        "name": "通用",
+                        "category": "language"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text",
+                    "image"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 107,
+                "model": "gpt-5-nano",
+                "name": "GPT-5 Nano",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions",
+                "input_price": 0.05,
+                "output_price": 0.4,
+                "price_type": 2,
+                "context_length": 400000,
+                "description": "最便宜的 GPT，专为高吞吐量简单任务而生。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 108,
+                "model": "gpt-4.1",
+                "name": "GPT-4.1",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions",
+                "input_price": 2,
+                "output_price": 8,
+                "price_type": 0,
+                "context_length": 1047576,
+                "description": "稳定的代码生成，输出可预测。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 7,
+                        "key": "production-code",
+                        "name": "生产代码",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 109,
+                "model": "gpt-4.1-nano",
+                "name": "GPT-4.1 Nano",
+                "icon": "https://gimg2.staticimgs.com/image/chatgpt_20260326_175808_6b577d5b3fd64f5f67184bf0a0ac5586.webp",
+                "provider_type": "openai",
+                "type": "completions",
+                "input_price": 0.1,
+                "output_price": 0.4,
+                "price_type": 2,
+                "context_length": 1047576,
+                "description": "最快的 GPT，亚秒级响应。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 110,
+                "model": "claude-opus-4.6",
+                "name": "Claude Opus 4.6",
+                "icon": "https://gimg2.staticimgs.com/image/cloude_20260326_175808_307b0f75c8b5dc39935a33fc51959146.webp",
+                "provider_type": "anthropic",
+                "type": "completions|messages",
+                "input_price": 5,
+                "output_price": 25,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "Claude 系列最强推理能力，200K 上下文。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-04-22T06:29:26Z"
+            },
+            {
+                "id": 111,
+                "model": "claude-sonnet-4.6",
+                "name": "Claude Sonnet 4.6",
+                "icon": "https://gimg2.staticimgs.com/image/cloude_20260326_175808_307b0f75c8b5dc39935a33fc51959146.webp",
+                "provider_type": "anthropic",
+                "type": "completions|messages",
+                "input_price": 3,
+                "output_price": 15,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "Anthropic 质量与成本的最佳平衡。",
+                "overview": "性能均衡的全能模型",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 48,
+                        "key": "gate_ai_v3",
+                        "name": "gateai主站",
+                        "category": "caller"
+                    },
+                    {
+                        "id": 49,
+                        "key": "gate_ai_v3_paid_only",
+                        "name": "付费用户",
+                        "category": "gate_ai_v3"
+                    },
+                    {
+                        "id": 51,
+                        "key": "gate_ai_v3_paid_show",
+                        "name": "付费标识",
+                        "category": "gate_ai_v3"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-14T14:46:47Z"
+            },
+            {
+                "id": 112,
+                "model": "claude-sonnet-4.5",
+                "name": "Claude Sonnet 4.5",
+                "icon": "https://gimg2.staticimgs.com/image/cloude_20260326_175808_307b0f75c8b5dc39935a33fc51959146.webp",
+                "provider_type": "anthropic",
+                "type": "completions|messages",
+                "input_price": 3,
+                "output_price": 15,
+                "price_type": 0,
+                "context_length": 1000000,
+                "description": "上一代 Sonnet，仍然擅长长篇内容。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-04-22T06:29:26Z"
+            },
+            {
+                "id": 113,
+                "model": "claude-haiku-4.5",
+                "name": "Claude Haiku 4.5",
+                "icon": "https://gimg2.staticimgs.com/image/cloude_20260326_175808_307b0f75c8b5dc39935a33fc51959146.webp",
+                "provider_type": "anthropic",
+                "type": "completions|messages",
+                "input_price": 1,
+                "output_price": 5,
+                "price_type": 0,
+                "context_length": 200000,
+                "description": "快速且实惠，处理简单任务表现良好。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-04-22T06:29:26Z"
+            },
+            {
+                "id": 115,
+                "model": "gemini-2.5-pro",
+                "name": "Gemini 2.5 Pro",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 1.25,
+                "output_price": 10,
+                "price_type": 0,
+                "context_length": 1048576,
+                "description": "超大上下文窗口，擅长视频理解。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 3,
+                        "key": "vision",
+                        "name": "视觉",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 116,
+                "model": "deepseek-v3.2",
+                "name": "DeepSeek V3.2",
+                "icon": "https://gimg2.staticimgs.com/image/deepseek_20260326_175808_c017c031804298fc23d66a4c9da62aa9.webp",
+                "provider_type": "deepseek",
+                "type": "completions",
+                "input_price": 0.28,
+                "output_price": 0.42,
+                "price_type": 2,
+                "context_length": 163840,
+                "description": "编程和数学的最佳性价比，旗舰级的零头价格。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 8,
+                        "key": "math",
+                        "name": "数学",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 117,
+                "model": "deepseek-chat-v3.1",
+                "name": "DeepSeek V3.1",
+                "icon": "https://gimg2.staticimgs.com/image/deepseek_20260326_175808_c017c031804298fc23d66a4c9da62aa9.webp",
+                "provider_type": "deepseek",
+                "type": "completions|messages",
+                "input_price": 0.4,
+                "output_price": 1.2,
+                "price_type": 0,
+                "context_length": 32768,
+                "description": "低成本通用推理模型。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    },
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 120,
+                "model": "kimi-k2.5",
+                "name": "Kimi K2.5",
+                "icon": "https://gimg2.staticimgs.com/image/kimi_20260326_175808_195de36406582535a5456bad511ffbbe.webp",
+                "provider_type": "moonshotai",
+                "type": "completions",
+                "input_price": 0.58,
+                "output_price": 3.05,
+                "price_type": 2,
+                "context_length": 262144,
+                "description": "顶级中英双语模型，强大的长上下文能力。",
+                "overview": "逻辑严密擅长推理",
+                "tags": [
+                    {
+                        "id": 9,
+                        "key": "chinese",
+                        "name": "中文",
+                        "category": "language"
+                    },
+                    {
+                        "id": 10,
+                        "key": "bilingual",
+                        "name": "双语",
+                        "category": "language"
+                    },
+                    {
+                        "id": 48,
+                        "key": "gate_ai_v3",
+                        "name": "gateai主站",
+                        "category": "caller"
+                    },
+                    {
+                        "id": 49,
+                        "key": "gate_ai_v3_paid_only",
+                        "name": "付费用户",
+                        "category": "gate_ai_v3"
+                    },
+                    {
+                        "id": 50,
+                        "key": "gate_ai_v3_free",
+                        "name": "免费用户",
+                        "category": "gate_ai_v3"
+                    },
+                    {
+                        "id": 52,
+                        "key": "gate_ai_v3_free_show",
+                        "name": "免费标识",
+                        "category": "gate_ai_v3"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-11T12:18:33Z"
+            },
+            {
+                "id": 122,
+                "model": "glm-5",
+                "name": "GLM-5",
+                "icon": "https://gimg2.staticimgs.com/image/glm_20260326_175808_84424145265aa8c96dc63ba267184b1b.webp",
+                "provider_type": "z-ai",
+                "type": "completions",
+                "input_price": 1,
+                "output_price": 3.2,
+                "price_type": 0,
+                "context_length": 202752,
+                "description": "有竞争力的通用中文模型。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 9,
+                        "key": "chinese",
+                        "name": "中文",
+                        "category": "language"
+                    },
+                    {
+                        "id": 11,
+                        "key": "universal",
+                        "name": "通用",
+                        "category": "language"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 123,
+                "model": "glm-4.7-flash",
+                "name": "GLM-4.7 Flash",
+                "icon": "https://gimg2.staticimgs.com/image/glm_20260326_175808_84424145265aa8c96dc63ba267184b1b.webp",
+                "provider_type": "z-ai",
+                "type": "completions",
+                "input_price": 0.07,
+                "output_price": 0.4,
+                "price_type": 2,
+                "context_length": 202752,
+                "description": "超快中文处理，极其便宜。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 9,
+                        "key": "chinese",
+                        "name": "中文",
+                        "category": "language"
+                    },
+                    {
+                        "id": 5,
+                        "key": "cost-effective",
+                        "name": "高性价比",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 125,
+                "model": "minimax-m2.5",
+                "name": "MiniMax M2.5",
+                "icon": "https://gimg2.staticimgs.com/image/minimax_20260326_175808_e035b094e2a2c576421eaea02d991de4.webp",
+                "provider_type": "minimax",
+                "type": "completions",
+                "input_price": 0.3,
+                "output_price": 1.2,
+                "price_type": 2,
+                "context_length": 196608,
+                "description": "专为对话和双语聊天打造。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 1,
+                        "key": "chat",
+                        "name": "对话",
+                        "category": "general"
+                    },
+                    {
+                        "id": 10,
+                        "key": "bilingual",
+                        "name": "双语",
+                        "category": "language"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T06:34:59Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 126,
+                "model": "gemini-3.1-pro-preview",
+                "name": "Gemini 3.1 Pro Preview",
+                "icon": "https://gimg2.staticimgs.com/image/gemini_20260326_175808_6b5efd5c79f693b7ad05d57ceb5e0416.webp",
+                "provider_type": "google",
+                "type": "completions",
+                "input_price": 2,
+                "output_price": 12,
+                "price_type": 0,
+                "context_length": 1048576,
+                "description": "Google 最新模型，原生支持图像与视频的强大推理。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 3,
+                        "key": "vision",
+                        "name": "视觉",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text",
+                    "image",
+                    "audio"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-13T12:52:16Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            },
+            {
+                "id": 128,
+                "model": "glm-5-turbo",
+                "name": "GLM-5-Turbo",
+                "icon": "https://gimg2.staticimgs.com/image/glm_20260326_175808_84424145265aa8c96dc63ba267184b1b.webp",
+                "provider_type": "z-ai",
+                "type": "completions",
+                "input_price": 1.2,
+                "output_price": 4,
+                "price_type": 0,
+                "context_length": 128000,
+                "description": "专为 OpenClaw 等基于代理的场景而设计。",
+                "overview": "",
+                "tags": [
+                    {
+                        "id": 6,
+                        "key": "coding",
+                        "name": "编程",
+                        "category": "coding"
+                    },
+                    {
+                        "id": 2,
+                        "key": "reasoning",
+                        "name": "推理",
+                        "category": "general"
+                    }
+                ],
+                "input_modalities": [
+                    "text"
+                ],
+                "output_modalities": [
+                    "text"
+                ],
+                "create_time": "2026-03-22T02:23:05Z",
+                "update_time": "2026-05-10T00:49:43Z"
+            }
+        ]
+    },
+    "timestamp": "1779808385"
+}
