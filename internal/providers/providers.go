@@ -57,6 +57,9 @@ var fireworksConfig []byte
 //go:embed configs/gemini.json
 var geminiConfig []byte
 
+//go:embed configs/gaterouter.json
+var gateRouterConfig []byte
+
 //go:embed configs/groq.json
 var groqConfig []byte
 
@@ -157,6 +160,7 @@ var providerRegistry = []ProviderFunc{
 	cortecsProvider,
 	deepSeekProvider,
 	fireworksProvider,
+	gateRouterProvider,
 	groqProvider,
 	huggingFaceProvider,
 	ioNetProvider,
@@ -254,6 +258,10 @@ func fireworksProvider() catwalk.Provider {
 
 func geminiProvider() catwalk.Provider {
 	return loadProviderFromConfig(geminiConfig)
+}
+
+func gateRouterProvider() catwalk.Provider {
+	return loadProviderFromConfig(gateRouterConfig)
 }
 
 func groqProvider() catwalk.Provider {
